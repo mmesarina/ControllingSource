@@ -82,12 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				DCB6CFBA1B41DE3800CC8DC6 /* AppDelegate.swift */,
-				DCB6CFBF1B41DE3800CC8DC6 /* MasterViewController.swift */,
-				DCB6CFC11B41DE3800CC8DC6 /* DetailViewController.swift */,
-				DCB6CFC31B41DE3800CC8DC6 /* Main.storyboard */,
-				DCB6CFC61B41DE3800CC8DC6 /* Images.xcassets */,
-				DCB6CFC81B41DE3800CC8DC6 /* LaunchScreen.xib */,
-				DCB6CFBC1B41DE3800CC8DC6 /* ControllingSource.xcdatamodeld */,
+				DCB6CFDF1B41E10200CC8DC6 /* ViewControllers */,
+				DCB6CFE01B41E12D00CC8DC6 /* Resources */,
 				DCB6CFB81B41DE3800CC8DC6 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -116,6 +112,26 @@
 				DCB6CFD41B41DE3800CC8DC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB6CFDF1B41E10200CC8DC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCB6CFBF1B41DE3800CC8DC6 /* MasterViewController.swift */,
+				DCB6CFC11B41DE3800CC8DC6 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DCB6CFE01B41E12D00CC8DC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCB6CFC31B41DE3800CC8DC6 /* Main.storyboard */,
+				DCB6CFC61B41DE3800CC8DC6 /* Images.xcassets */,
+				DCB6CFC81B41DE3800CC8DC6 /* LaunchScreen.xib */,
+				DCB6CFBC1B41DE3800CC8DC6 /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +429,7 @@
 				DCB6CFDB1B41DE3800CC8DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB6CFDC1B41DE3800CC8DC6 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				DCB6CFDE1B41DE3800CC8DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
